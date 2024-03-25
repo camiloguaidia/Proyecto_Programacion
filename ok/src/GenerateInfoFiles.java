@@ -17,7 +17,7 @@ public class GenerateInfoFiles {
         DatosVendedores.add("Documento: C.C. 009, Nombre: Pablo Silva");
         DatosVendedores.add("Documento: C.C. 010, Nombre: Nicolas Mora");
 
-       System.out.println("Datos de los vendedores");
+       System.out.println("Datos de los vendedores:");
        for (String datos : DatosVendedores) {
         System.out.println(datos);
     }
