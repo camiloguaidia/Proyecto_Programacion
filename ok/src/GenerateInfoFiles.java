@@ -22,4 +22,25 @@ public class GenerateInfoFiles {
         System.out.println(datos);
     }
     }
+    import java.util.ArrayList;
+public class  GenerateInfoFiles {
+        ArrayList<Producto> productos = new ArrayList<>();
+
+        // Agregar productos a la lista
+        productos.add(new Producto(ID11, "Cuaderno argollado cuadriculado pequeño", 12000));
+        productos.add(new Producto(ID12, "Esfero negro marca BIC", 2000));
+        productos.add(new Producto(ID13, "Lápiz mirado 2", 3000));
+        productos.add(new Producto(ID14, "Post It color morado mediano", 5000));
+        productos.add(new Producto(ID15, "Post It color amarillo pequeño", 12000));
+        productos.add(new Producto(ID16, "Resma de hojas tamaño carta", 40000));
+        productos.add(new Producto(ID17, "Regla 30 cm", 6000));
+        productos.add(new Producto(ID18, "Libreta de notas mediana argollada", 15000));
+        productos.add(new Producto(ID19, "Sobre manila tamaño oficio", 200));
+        productos.add(new Producto(ID20, "Sobre manila tamaño carta", 100));
+
+        // Imprimir los productos
+        for (Producto producto : productos) {
+            System.out.println(producto);
+        }
+}
 }
